@@ -1,0 +1,15 @@
+String method
+String builder
+
+3 variables
+
+Public
+Default
+Private
+Protected...
+
+
+Constructor.
+
+
+Bu sekilde bu dersi isleyecek.

@@ -1,0 +1,31 @@
+Recap;
+Abstraction is a process of hiding implementation details and showing functionality only .
+Abstraction classes:
+are that are declared with abstract keyword they help us achieve abstraction.
+abstraction helps us divide the workload in multiple child classes and it helps us reduce the complexity of code.
+Rules;
+1)use abstract class keyword to define abstract class.
+2)we can have an abstract class with or without abstract methods.
+3)we must declare a class as an abstract class even if we have a single abstract method inside it.
+4)we can not create the object of an abstract class directly  but extend this class and
+can create the object of child classes that way we will be able to use fields and methods
+from abstract class.
+5)We can not declare a class as final and abstract because final means no extension
+and abstract means incomplete and some classes should extend it and complete it.
+6)we can have public private protected members in abstract class.
+But in interface always all the field are PUBLIC STATIC FINAL.
+7)we can not have a method as static and abstract at the same time
+8)we can not have a method as private and abstract because private members
+do not participate in inheritance and we will never be able to provide body of that method.
+9)we can not have a method of final and abstract.
+
+
+abstract class Animal{
+}
+========================================================================================
+
+Interface in Java
+
+Interfaces in Java are also used to achieve abstraction .
+Rules :
+All the fields in an interface are by default public static and final
